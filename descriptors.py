@@ -21,7 +21,7 @@ class Counter:
             raise ValueError("Odometer rollback is not allowed.")
         else:
             setattr(instance, self.name, new_value)
-            print(f"Odometer successfully set to: {new_value}")
+            print(f"Odometer successfully set to: {new_value}.)
 
 
 class Tank:
