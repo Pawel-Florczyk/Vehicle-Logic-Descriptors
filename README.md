@@ -24,3 +24,21 @@ A professional Python-based management system for various types of vehicles (Car
 ├── main.py             # Application entry point & simulation
 ├── requirements.txt    # Project dependencies
 └── .flake8             # Linter configuration
+```
+
+## Running program via Docker Compose
+```bash
+docker compose up
+```
+
+## Running program via Docker (Alternative):
+
+1. Building an image
+```bash
+docker build -t vehicle-logic-descriptors .
+```
+
+2. Running program (container)
+```bash
+docker run -v .:/app vehicle-logic-descriptors
+```
