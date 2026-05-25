@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  flake-runner:
+    image: vehicle-logic-descriptors
+    volumes:
+      - .:/app
+    command: flake8
