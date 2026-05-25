@@ -4,3 +4,9 @@ services:
     volumes:
       - .:/app
     command: flake8
+
+  app:
+    image: vehicle-logic-descriptors
+    volumes:
+      - .:/app
+    command: python main.py

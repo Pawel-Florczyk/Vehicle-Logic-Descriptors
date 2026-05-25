@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["flake8"]
+RUN flake8
+
+CMD ["python", "main.py"]
