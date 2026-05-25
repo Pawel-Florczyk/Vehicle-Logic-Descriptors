@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   flake-runner:
     image: vehicle-logic-descriptors
