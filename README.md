@@ -28,7 +28,7 @@ A professional Python-based management system for various types of vehicles (Car
 
 ## Running program via Docker Compose
 ```bash
-docker compose up
+docker compose up --build
 ```
 
 ## Running program via Docker (Alternative):
